@@ -1,1 +1,7 @@
-<p>component-b works!</p>
+<ng-container *ngIf="user">
+  <label for="fname">First name: {{ user.firstName }}</label>
+  <br /><br />
+  <label for="lname">Last name: {{ user.lastName }}</label>
+  <br /><br />
+  <label for="email">Role: {{ user.role }}</label>
+</ng-container>

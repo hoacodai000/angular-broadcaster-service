@@ -1,1 +1,10 @@
-<p>component-a works!</p>
+<fieldset>
+  <legend>Personalia:</legend>
+  <label for="fname">First name: {{ user.firstName }}</label>
+  <br><br>
+  <label for="lname">Last name: {{ user.lastName }}</label>
+  <br><br>
+  <label for="email">Role: {{ user.role }}</label>
+  <br><br>
+  <input type="submit" value="Submit" (click)="sendDataFromComponentA()" />
+</fieldset>
